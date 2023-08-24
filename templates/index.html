@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <div class="guess">
+        <h1>Peek-a-Pick!</h1>
+        <p class="game_details">Guess the secret number between 1 to 100 in just 5 tries!</p>
+        <form action="/guess" class="form" method="post">
+            <div class="guess_area">
+                <label for="guess"><strong>Take a guess:</strong></label>
+                <input type="text" name="guess" id="guess" class="input_number">
+            </div>
+            <input type="submit" value ="Guess" class="guess_button">
+        </form>
+        <div class="result">
+            {% if 'guess' in session: %}
+                {% if session['guess'] == session['guess_num'] %} 
+                <div class="message">
+                    <h3>Woo hoo! Right number!!!</h3>
+                    <a href="/reset" class="button">Try again!</a>
+                    <p class="guess_detail">You guessed {{session['count']}} time(s)</p>
+                    <form action='/insert_name' method='post'>
+                        <label class="guess_detail">Winner name:</label>
+                        <input type="text" name="name">
+                        <input type="submit" value="Submit" class="submit_button">
+                    </form>
+                </div>
+                {% elif session['guess'] > session['guess_num'] %}
+                <div class="message">
+                    <h3>Toooooooooo High!!!</h3>
+                    {% if session['count'] >= 5  %}
+                    <h3 class="win_or_lose">YOU LOSE!!!</h3>
+                    <a href="/reset" class="button">Try again!</a>
+                    {% endif %}
+                </div>
+                {% elif session['guess'] < session['guess_num'] %}
+                <div class="message">
+                    <h3>Toooooooooo Low!!!</h3>
+                    {% if session['count'] >= 5  %}
+                    <h3 class="win_or_lose">YOU LOSE!!!</h3>
+                    <a href="/reset" class="button">Try again!</a>
+                    {% endif %}
+                </div>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+
+</body>
+</html>

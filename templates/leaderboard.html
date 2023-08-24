@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <title>Winners board</title>
+</head>
+<body>
+    <div class="winner_details">
+        <h1>Winners!</h1>
+        <table>
+            <thead>
+                <th>Name: </th>
+                <th>Guessing time(s): </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{session['name']}}</td>
+                    <td>{{session['count']}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="/reset" class="button">Play again?</a>
+    </div> 
+</body>
+</html>

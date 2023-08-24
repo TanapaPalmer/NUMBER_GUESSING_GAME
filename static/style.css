@@ -1,0 +1,170 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(102, 188, 175);
+    align-items: center;
+    height: 600px;
+    text-align: center;
+    background-repeat: repeat;
+    background-image: url(https://cdn.wallpapersafari.com/2/41/krmeh4.jpg);
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(94, 89, 154);
+    margin-top: 0;
+}
+
+.guess_button {
+    color: #3b3232;
+    padding: 5px 10px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    background: rgb(159, 221, 212);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    box-shadow: 2px 2px 2px 1px #000000;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.submit_button {
+    color: #3b3232;
+    padding: 5px 10px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    background: rgb(159, 162, 221);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    box-shadow: 2px 2px 2px 1px #000000;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.button {
+    color: #3b3232;
+    padding: 5px 10px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    background: rgb(221, 159, 188);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    box-shadow: 2px 2px 2px 1px #000000;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.guess {
+    width: 800px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.win_or_lose {
+    color: rgb(218, 133, 104);
+}
+
+.game_details {
+    color: rgb(98, 85, 89);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.winner_details {
+    width: 800px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(54, 48, 50);
+    font-weight: bold;
+}
+
+.guess_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_number {
+    font-size: 30px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 30px;
+}
+
+.result {
+    font-size: 30px;
+    color: rgb(218, 104, 140);
+}
+
+.guess_detail {
+    font-size: 20px;
+    color: rgb(54, 48, 50);
+    font-weight: bold;
+}
+
+table {
+
+    max-width: 100%;
+
+}
+
+
+tr:nth-child(odd) {
+
+    background-color: #eee;
+
+}
+
+
+th {
+
+    background-color: #555;
+
+    color: #fff;
+
+}
+
+
+th,
+
+td {
+
+    text-align: center;
+
+    padding: 0.5em 1em; }
