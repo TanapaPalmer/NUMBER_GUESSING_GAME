@@ -3,7 +3,7 @@
   <p>:pushpin:#tanapa_100day_projects</p>
   <br>
   <div>
-    <img src="https://github.com/TanapaPalmer/NUMBER_GUESSING_GAME/assets/119079803/97ba4839-42fe-4802-baa0-660717bcad9b" height="250"/>
+    <img src="https://github.com/TanapaPalmer/NUMBER_GUESSING_GAME/assets/119079803/56f774da-74be-4652-b356-122345365c21" height="250"/>
   </div>
   <br>
   <p>I'm whipping up this awesome number guessing game using HTML, CSS, Flask, and Python.</p>
@@ -19,7 +19,7 @@
   
   <div>
     <p><strong>HOW MY NUMBER GUESSING GAME WORKS:</strong></p>
-    <video src=""></video>
+    <video src="https://github.com/TanapaPalmer/NUMBER_GUESSING_GAME/assets/119079803/90b5fdfc-a719-4ae1-9275-0bede23f4f0d"></video>
   </div>
 </div>
 
