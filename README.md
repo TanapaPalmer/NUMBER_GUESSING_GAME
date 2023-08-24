@@ -6,7 +6,7 @@
     <img src="https://github.com/TanapaPalmer/NUMBER_GUESSING_GAME/assets/119079803/56f774da-74be-4652-b356-122345365c21" height="250"/>
   </div>
   <br>
-  <p>I'm whipping up this awesome number guessing game using HTML, CSS, Flask, and Python.</p>
+  <p>I'm whipping up this awesome Number Guessing Game using HTML, CSS, Flask, and Python.</p>
 
   <hr>
 
