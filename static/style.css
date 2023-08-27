@@ -86,6 +86,7 @@ h1 {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgb(98, 85, 89);
 }
 
 .win_or_lose {
@@ -109,6 +110,7 @@ h1 {
     font-size: 20px;
     color: rgb(54, 48, 50);
     font-weight: bold;
+    box-shadow: 4px 4px 4px 4px rgb(98, 85, 89);
 }
 
 .guess_area {
